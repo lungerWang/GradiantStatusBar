@@ -22,4 +22,10 @@
         android:layout_height="wrap_content"
         android:onClick="solution2"
         android:text="solution2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="solution3"
+        android:text="solution3"/>
 </LinearLayout>
