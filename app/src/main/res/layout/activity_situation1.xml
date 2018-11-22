@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lunger.gradiantstatusbar.activity.MainActivity">
+
+    <ImageView
+        android:background="#44ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.lunger.gradiantstatusbar.util.StatusBarHeightView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:use_type="use_padding_top"
+        android:orientation="vertical">
+        <TextView
+            android:text="123455"
+            android:textSize="40sp"
+            android:textColor="#00ff00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.lunger.gradiantstatusbar.util.StatusBarHeightView>
+
+</RelativeLayout>
