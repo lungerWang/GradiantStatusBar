@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void solution2(View view) {
-        
+        startActivity(new Intent(this, Solution2Activity.class));
     }
 }
